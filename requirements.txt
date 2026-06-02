@@ -1,5 +1,3 @@
 flask
-anthropic
-steel-sdk
-playwright
+anthropic[managed-agents]
 gunicorn
