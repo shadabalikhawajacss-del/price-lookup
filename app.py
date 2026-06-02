@@ -43,7 +43,7 @@ Reply with ONLY the search keyword."""
     print(f"Search term: {search_term}")
 
     # Step 2: Create Steel browser session
-    session = steel_client.sessions.create(solve_captcha=True)
+    session = steel_client.sessions.create()
     print(f"Steel session: {session.id}")
 
     try:
